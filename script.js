@@ -2,6 +2,7 @@ const button = document.getElementById('button');
 const audioElement = document.getElementById('audio');
 const voiceApiKey = config.VOICE_API;
 
+
 // Disable/enable button
 function toggleButton() {
     button.disabled = !button.disabled;
